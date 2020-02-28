@@ -5,7 +5,7 @@ def isToeplitz(arr):
     
   for i in range(len(arr)):
     if helper(i, 0, arr, arr[i][0]): continue
-    else: return True
+    else: return False
     
   return True 
     
